@@ -1,0 +1,563 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' , sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.main-width {
+    width: 1400px;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 40px;
+}
+.Super{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background: radial-gradient(#00ff15,20%, #00ffbf);
+    position: relative ;
+}
+.Super header .logo h2 a{
+    display: block;
+    font-size: 32px;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+.Super header{
+    display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 40px 0 30px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: .4s;
+}
+nav ul li:not(:last-child) a:hover,
+nav ul li:not(:last-child) a:focus{
+border-bottom: 2px solid white;
+}
+nav ul li.btn a{
+    background: transparent;
+    color: white;
+    border: 1px solid #f5dca8;
+    padding: 9px 20px;
+    border-radius: 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 150px;
+}
+nav ul li.btn:hover a{
+    border: 1px solid white;
+    color: black;
+    background: white;
+    transition: 0.4s;
+}
+.work{
+    padding-top: 140px;
+}
+.work .main-text{
+    position: relative;
+    z-index: 2;
+    margin-bottom: 50px;
+}
+.work .main-text h6{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 40px;
+}
+.work .main-text h1{
+    font-size: 100px;
+    line-height: 1;
+    color: white;
+    margin: 0px 0px 45px;
+    font-family: 'Permanent Marker', cursive;
+}
+.work .main-text h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+.work .main-text p{
+    max-width: 100%;
+    width: 480px;
+    color: white;
+    line-height: 1.8;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.work .main-text a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background: white;
+    box-sizing: 1px solid white;
+    padding: 9px 35px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.work .main-text a:hover{
+    transform: scale(1.2);
+    border: 1px solid #f5dca8;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    transition: .4s;
+}
+.work .main-text a.cvcv{
+    border: 1px solid #f5dca8;
+    color: white;
+    background: transparent;
+    margin-left: 20px;
+}
+.work .main-text a.cvcv i{
+    margin-right: 12px;
+}
+.work .main-text a.cvcv:hover{
+    color: rgb(0, 0, 0);
+    background: white;
+    border: 1px solid white;
+    transition: .4s;
+}
+.work .social{
+    position: relative;
+    z-index: 2;
+    margin-top: 200px;
+    padding-bottom: 40px;
+}
+.work .social a{
+    display: inline-block;
+    color: #f5dcac;
+    margin-right: 25px;
+    font-size: 25px;
+}
+.work .social a:hover{
+    transform: scale(1.2);
+    transition: .4s;
+    color: white;
+}
+.img{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    top: 100px;
+    right: 0;
+    text-align: right;
+}
+
+/* gasme 2 */
+
+.second{
+   padding-top:800px;
+   padding-left: 150px;
+}
+.class{
+    padding-top: 140px;
+}
+.class .main-class{
+    position: relative;
+    z-index: 2;
+    margin-bottom: 50px;
+}
+.class .main-class h6{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 40px;
+}
+.class .main-class h1{
+    font-size: 100px;
+    line-height: 1;
+    color: white;
+    margin: 0px 0px 45px;
+    font-family: 'Permanent Marker', cursive;
+}
+.class .main-class h3{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+.class .main-class p{
+    max-width: 100%;
+    width: 480px;
+    color: white;
+    line-height: 1.8;
+    font-size: 15px;
+    margin-bottom: 50px;
+}
+.class .main-class a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background: white;
+    box-sizing: 1px solid white;
+    padding: 9px 35px;
+    line-height: 1.4;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.class .main-class a:hover{
+    transform: scale(1.2);
+    border: 1px solid #f5dca8;
+    background: transparent;
+    color: rgb(255, 255, 255);
+    transition: .4s;
+}
+.class .main-class a.cvco{
+    border: 1px solid #f5dca8;
+    color: white;
+    background: transparent;
+    margin-left: 20px;
+}
+.class .main-class a.cvco i{
+    margin-right: 12px;
+}
+.class .main-class a.cvco:hover{
+    color: rgb(0, 0, 0);
+    background: white;
+    border: 1px solid white;
+    transition: .4s;
+}
+.class .social-new{
+    position: relative;
+    z-index: 2;
+    margin-top: 200px;
+    padding-bottom: 40px;
+}
+.class .social-new a{
+    display: inline-block;
+    color: #f5dcac;
+    margin-right: 25px;
+    font-size: 25px;
+}
+.class .social-new a:hover{
+    transform: scale(1.2);
+    transition: .4s;
+    color: white;
+}
+.img-2{
+    position: absolute;
+    width: 100%;
+    height: 85%;
+    top: 2000px;
+    right: 0;
+    text-align: right;
+}
+
+/* gaamamam */
+
+.third{
+    padding-top:400px;
+    padding-left: 150px;
+ }
+ .class-5{
+     padding-top: 140px;
+ }
+ .class-5 .main-class-4{
+     position: relative;
+     z-index: 2;
+     margin-bottom: 50px;
+ }
+ .class-5 .main-class-4 h6{
+     font-size: 14px;
+     font-weight: 400;
+     color: white;
+     margin-bottom: 40px;
+ }
+ .class-5 .main-class-4 h1{
+     font-size: 100px;
+     line-height: 1;
+     color: white;
+     margin: 0px 0px 45px;
+     font-family: 'Permanent Marker', cursive;
+ }
+ .class-5 .main-class-4 h3{
+     font-size: 18px;
+     font-weight: 600;
+     color: white;
+ }
+ .class-5 .main-class-4 p{
+     max-width: 100%;
+     width: 480px;
+     color: white;
+     line-height: 1.8;
+     font-size: 15px;
+     margin-bottom: 50px;
+ }
+ .class-5 .main-class-4 a{
+     display: inline-block;
+     text-decoration: none;
+     color: black;
+     background: white;
+     box-sizing: 1px solid white;
+     padding: 9px 35px;
+     line-height: 1.4;
+     border-radius: 30px;
+     font-size: 14px;
+     font-weight: 500;
+ }
+ .class-5 .main-class-4 a:hover{
+     transform: scale(1.2);
+     border: 1px solid #f5dca8;
+     background: transparent;
+     color: rgb(255, 255, 255);
+     transition: .4s;
+ }
+ .class-5 .main-class-4 a.cvcc{
+     border: 1px solid #f5dca8;
+     color: white;
+     background: transparent;
+     margin-left: 20px;
+ }
+ .class-5 .main-class-4 a.cvcc i{
+     margin-right: 12px;
+ }
+ .class-5 .main-class-4 a.cvcc:hover{
+     color: rgb(0, 0, 0);
+     background: white;
+     border: 1px solid white;
+     transition: .4s;
+ }
+ .class-5 .social-new-5{
+     position: relative;
+     z-index: 2;
+     margin-top: 200px;
+     padding-bottom: 40px;
+ }
+ .class-5 .social-new-5 a{
+     display: inline-block;
+     color: #f5dcac;
+     margin-right: 25px;
+     font-size: 25px;
+ }
+ .class-5 .social-new-5 a:hover{
+     transform: scale(1.2);
+     transition: .4s;
+     color: white;
+ }
+ .image-5{
+     position: absolute;
+     width: 100%;
+     height: 100px;
+     top: 3400px;
+     right: 0;
+     text-align: right;
+ }
+
+ /* gaggaggaga */
+
+ .four{
+    padding-top:400px;
+    padding-left: 150px;
+ }
+ .class-6{
+     padding-top: 140px;
+ }
+ .class-6 .main-class-6{
+     position: relative;
+     z-index: 2;
+     margin-bottom: 50px;
+ }
+ .class-6 .main-class-6 h6{
+     font-size: 14px;
+     font-weight: 400;
+     color: white;
+     margin-bottom: 40px;
+ }
+ .class-6 .main-class-6 h1{
+     font-size: 100px;
+     line-height: 1;
+     color: white;
+     margin: 0px 0px 45px;
+     font-family: 'Permanent Marker', cursive;
+ }
+ .class-6 .main-class-6 h3{
+     font-size: 18px;
+     font-weight: 600;
+     color: white;
+ }
+ .class-6 .main-class-6 p{
+     max-width: 100%;
+     width: 480px;
+     color: white;
+     line-height: 1.8;
+     font-size: 15px;
+     margin-bottom: 50px;
+ }
+ .class-6 .main-class-6 a{
+     display: inline-block;
+     text-decoration: none;
+     color: black;
+     background: white;
+     box-sizing: 1px solid white;
+     padding: 9px 35px;
+     line-height: 1.4;
+     border-radius: 30px;
+     font-size: 14px;
+     font-weight: 500;
+ }
+ .class-6 .main-class-6 a:hover{
+     transform: scale(1.2);
+     border: 1px solid #f5dca8;
+     background: transparent;
+     color: rgb(255, 255, 255);
+     transition: .4s;
+ }
+ .class-6 .main-class-6 a.cvcl{
+     border: 1px solid #f5dca8;
+     color: white;
+     background: transparent;
+     margin-left: 20px;
+ }
+ .class-6 .main-class-6 a.cvcl i{
+     margin-right: 12px;
+ }
+ .class-6 .main-class-6 a.cvcl:hover{
+     color: rgb(0, 0, 0);
+     background: white;
+     border: 1px solid white;
+     transition: .4s;
+ }
+ .class-6 .social-new-6{
+     position: relative;
+     z-index: 2;
+     margin-top: 200px;
+     padding-bottom: 40px;
+ }
+ .class-6 .social-new-6 a{
+     display: inline-block;
+     color: #f5dcac;
+     margin-right: 25px;
+     font-size: 25px;
+ }
+ .class-6 .social-new-6 a:hover{
+     transform: scale(1.2);
+     transition: .4s;
+     color: white;
+ }
+ .image-6{
+     position: absolute;
+     width: 100%;
+     height: 100px;
+     top: 4500px;
+     right: 0;
+     text-align: right;
+ }
+
+/* <!fdghhhtht */
+
+ .four{
+    padding-top:400px;
+    padding-left: 150px;
+ }
+ .class-6{
+     padding-top: 140px;
+ }
+ .class-6 .main-class-6{
+     position: relative;
+     z-index: 2;
+     margin-bottom: 50px;
+ }
+ .class-6 .main-class-6 h6{
+     font-size: 14px;
+     font-weight: 400;
+     color: white;
+     margin-bottom: 40px;
+ }
+ .class-6 .main-class-6 h1{
+     font-size: 100px;
+     line-height: 1;
+     color: white;
+     margin: 0px 0px 45px;
+     font-family: 'Permanent Marker', cursive;
+ }
+ .class-6 .main-class-6 h3{
+     font-size: 18px;
+     font-weight: 600;
+     color: white;
+ }
+ .class-6 .main-class-6 p{
+     max-width: 100%;
+     width: 480px;
+     color: white;
+     line-height: 1.8;
+     font-size: 15px;
+     margin-bottom: 50px;
+ }
+ .class-6 .main-class-6 a{
+     display: inline-block;
+     text-decoration: none;
+     color: black;
+     background: white;
+     box-sizing: 1px solid white;
+     padding: 9px 35px;
+     line-height: 1.4;
+     border-radius: 30px;
+     font-size: 14px;
+     font-weight: 500;
+ }
+ .class-6 .main-class-6 a:hover{
+     transform: scale(1.2);
+     border: 1px solid #f5dca8;
+     background: transparent;
+     color: rgb(255, 255, 255);
+     transition: .4s;
+ }
+ .class-6 .main-class-6 a.cvcl{
+     border: 1px solid #f5dca8;
+     color: white;
+     background: transparent;
+     margin-left: 20px;
+ }
+ .class-6 .main-class-6 a.cvcl i{
+     margin-right: 12px;
+ }
+ .class-6 .main-class-6 a.cvcl:hover{
+     color: rgb(0, 0, 0);
+     background: white;
+     border: 1px solid white;
+     transition: .4s;
+ }
+ .class-6 .social-new-6{
+     position: relative;
+     z-index: 2;
+     margin-top: 200px;
+     padding-bottom: 40px;
+ }
+ .class-6 .social-new-6 a{
+     display: inline-block;
+     color: #f5dcac;
+     margin-right: 25px;
+     font-size: 25px;
+ }
+ .class-6 .social-new-6 a:hover{
+     transform: scale(1.2);
+     transition: .4s;
+     color: white;
+ }
+ .image-7{
+     position: absolute;
+     width: 100%;
+     height: 100px;
+     top: 5900px;
+     right: 0;
+     text-align: right;
+ }
